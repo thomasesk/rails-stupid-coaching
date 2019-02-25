@@ -1,0 +1,9 @@
+
+<div class="container">
+  <h1>Let's generate the answer</h1>
+  <p><%= @question.capitalize %> <br>- You <br><br></p>
+  <div class="answ">
+    <p><strong><%=@answer%></strong><br>- Your coach</p>
+  </div>
+  <%= link_to "Ask a new question", ask_path %>
+</div>
